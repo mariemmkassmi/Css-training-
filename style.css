@@ -1,0 +1,114 @@
+
+*{ background-color:#ECEBEF;box-sizing:border-box;font-family:  Arial sans-serif;  }
+h1{ margin-top: 100px;
+    margin-left: 20px;
+    color:#A0C6D2;
+    
+}
+.head li {
+    list-style: none;
+    
+   
+}
+a {
+    text-decoration: none;
+  }
+.head{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 500px;
+    
+}
+.Tete{ display: flex;}
+.image {
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+}
+  h2{margin-left: 400px;}
+.propos{margin-left: 20px;line-height:1.75;}
+.image-2{margin-left: 400px;}
+ p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.co {display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+height: 100vh;
+ 
+}
+.propos {
+    
+    padding: 20px;
+    margin-top: 30px;
+  }
+select, input, textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: rgb(105, 166, 192);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 200px;
+}
+b{color: red;}
+.para{margin-left: 200px;}
+.icon {
+    margin-right: 5px;
+    width: 20px;
+}
+    
+table {
+    margin: 0 auto;
+    
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(22, 22, 22, 0.1);
+}
+
+th {
+    /* background-color: #f2f2f2; */
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+td img {
+    max-width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.h1{ 
+    text-align: center;
+    margin-top: 20px;
+}
+.head{display: flex;}
+.acceuil{margin-top: 33px;margin-left: 180px;}
+.image2{width: 25px;height: 25px;}
+ .bodycontainer{color:black;text-decoration: solid;}  
+ .container{  
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.propos span {
+    font-weight: bold;
+  }
