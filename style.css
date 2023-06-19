@@ -1,10 +1,11 @@
 
 *{ background-color:#ECEBEF;box-sizing:border-box;font-family:  Arial sans-serif;  }
-h1{ margin-top: 100px;
-    margin-left: 20px;
+h1{ margin-bottom:280px ;
+    margin-left: 400px;
     color:#A0C6D2;
     
 }
+
 .head li {
     list-style: none;
     
@@ -17,17 +18,39 @@ a {
     display: flex;
     flex-direction: row;
     text-align: center;
-    margin-left: 500px;
+    margin-left: 200px;
+    
     
 }
-.Tete{ display: flex;}
-.image {
-    max-width: 100%;
-    height: auto;
+.container {
+    background-image: url('chemin/vers/votre/image.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
-  h2{margin-left: 400px;}
-.propos{margin-left: 20px;line-height:1.75;}
+.Tete{ display: flex;}
+.Tete h1 {
+    margin-bottom: 10px; 
+    margin-left: 400px;
+    color: #A0C6D2;
+}
+.image {
+    
+    width: 700px;
+    height: auto;
+  
+    margin-top: 10px;
+}
+  
+.propos{margin-left: 20px;line-height:1.75;margin-top: 0;  }
+.propos h2 {
+    
+    text-align: center;
+}
+h2 {
+    
+    text-align: center;
+}
 .image-2{margin-left: 400px;}
  p {
     font-size: 18px;
